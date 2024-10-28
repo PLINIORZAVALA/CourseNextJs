@@ -1,3 +1,4 @@
+"use client"
 import { notFound } from "next/navigation"; // Importa la función notFound de next/navigation
 
 // Función para obtener un número entero aleatorio
