@@ -15,12 +15,12 @@ export default function ReviewDetail({
         reviewId: string; // ID de la reseña
     };
 }) {
-    const random = getRandomInt(2); // Corrige el typo de 'conts' a 'const'
+    //const random = getRandomInt(2); // Corrige el typo de 'conts' a 'const'
 
     // Lanza un error si el número aleatorio es 1
-    if (random === 1) {
-        throw new Error("Error Loading review");
-    }
+    //if (random === 1) {
+        //throw new Error("Error Loading review");
+    //}
 
     // Redirige a la página 404 si el reviewId es mayor que 1000
     if (parseInt(params.reviewId) > 1000) {
